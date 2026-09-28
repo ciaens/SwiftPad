@@ -20,13 +20,13 @@ Only the core is published for now.
 Requires Swift 6.3 (see `.swift-version`).
 
 ```sh
-git clone --recurse-submodules <this repo>
+git clone --recurse-submodules https://github.com/ciaens/SwiftPad
 cd core
 swift build
 swift run swiftpad-cli
 ```
 
-Running the CLI with no arguments prints the command list.
+Running the CLI with no arguments prints the command list. See `CLI.md` for a guided tour of the commands.
 
 ## Status
 
