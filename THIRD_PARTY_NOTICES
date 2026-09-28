@@ -1,0 +1,36 @@
+Third-party components bundled in this repository
+==================================================
+
+The MIT License in LICENSE covers SwiftPad's own code only. The following
+components are redistributed under their own licenses.
+
+CryptPad worker bundle and configuration
+  Files:     core/Sources/SwiftPadCore/Resources/worker.bundle.min.js
+             core/Sources/SwiftPadCore/Resources/application_config.js
+  Origin:    https://github.com/cryptpad/cryptpad (www/common/worker.bundle.min.js,
+             www/common/application_config_internal.js), release 2026.5.1
+  Copyright: XWiki CryptPad Team <contact@cryptpad.org> and contributors
+  License:   AGPL-3.0-or-later — https://www.gnu.org/licenses/agpl-3.0.txt
+  Note:      application_config.js carries one SwiftPad change
+             (AppConfig.disableFeedback = true).
+
+TweetNaCl-js
+  File:      core/Sources/SwiftPadCore/Resources/nacl-fast.min.js
+  Origin:    https://github.com/dchest/tweetnacl-js
+  License:   The Unlicense (public domain)
+
+scrypt-async-js
+  File:      core/Sources/SwiftPadCore/Resources/scrypt-async.min.js
+  Origin:    https://github.com/dchest/scrypt-async-js
+  Copyright: 2013-2015 Dmitry Chestnykh
+  License:   BSD (notice retained in the file header)
+
+QuickJS-NG
+  Path:      core/Sources/CQuickJS/upstream (git submodule)
+  Origin:    https://github.com/quickjs-ng/quickjs
+  License:   MIT (see the submodule's LICENSE)
+
+Swift package dependencies (fetched at build time, not redistributed here):
+  swift-crypto (Apache-2.0), async-http-client (Apache-2.0),
+  websocket-kit (MIT), swift-nio-ssl (Apache-2.0). See core/Package.resolved
+  for the pinned versions.

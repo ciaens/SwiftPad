@@ -1,0 +1,3 @@
+[submodule "core/Sources/CQuickJS/upstream"]
+	path = core/Sources/CQuickJS/upstream
+	url = https://github.com/quickjs-ng/quickjs.git
